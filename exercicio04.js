@@ -3,19 +3,23 @@
 // notas e a mensagem de APROVADO para média superior ou igual a 7,0 RECUPERAÇÃO para
 // notas entre 5.0 e 7,0 ou a mensagem de REPROVADO para média inferior a 5,0.
 
-let n1 = parseInt(prompt("Digite sua primeira nota "))
 
-let n2 = parseInt(prompt("Digite sua segunda nota "))
+// ------Jeito Pamela------
 
-let n3 = parseInt(prompt("Digite sua terceira nota "))
 
-let n4 = parseInt(prompt("Digite sua quarta nota "))
+let n1 = parseFloat(prompt("Digite sua primeira nota "))
+
+let n2 = parseFloat(prompt("Digite sua segunda nota "))
+
+let n3 = parseFloat(prompt("Digite sua terceira nota "))
+
+let n4 = parseFloat(prompt("Digite sua quarta nota "))
 
 // Calculando a média
 
 let soma = (n1 + n2 + n3 + n4) / 4;
 
-console.log(soma)
+console.log("A média do aluno:" + soma)
 
 if (soma >= 7.0) {
     console.log("APROVADO");
