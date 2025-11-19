@@ -27,7 +27,7 @@ switch (semana) {
         break;
 
         case "6":
-        console.log("Sabádo")
+        console.log("Sábado")
         break;
 
         case "7":

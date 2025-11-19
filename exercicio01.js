@@ -7,7 +7,7 @@
 
 // let senha = window.prompt("Qual é a senha?")
 
-// ------
+// ------jeito da Pamela----------
 // let login = prompt("Digite o seu usuário: ")
 
 // switch (login) {
