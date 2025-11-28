@@ -7,7 +7,6 @@
 
 // while (idade !== 18) {
 //     alert("Voce é maior de 18 anos!!!")
-
 // }
 
 
